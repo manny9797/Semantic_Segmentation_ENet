@@ -8,7 +8,7 @@ The goal is to train a network with a small size being able to return high pixel
 * Download the [ResortIT dataset.](https://drive.google.com/file/d/14ThGc53okYC61AnTXFAofiYYY8PTZYtl/view?usp=share_link).
 * Unzip the ```dataset.zip``` into the project folder.
 * Modify the root path of the dataset by changing ```__C.DATA.DATA_PATH``` in ```config.py```.
-* Set the BATCH_SIZES, TRAIN_MAXEPOCH and NUM_CLASSES (binary_segmentation -> 1 ; instance_segmentation -> 5) in config.py
+* Set the ```BATCH_SIZES```, ```TRAIN_MAXEPOCH``` and ```NUM_CLASSES``` (binary_segmentation -> 1 ; instance_segmentation -> 5) in config.py
 * Comment the line 49 on resortit.py to do instance segmentation, otherwise no
 
 ### Training
